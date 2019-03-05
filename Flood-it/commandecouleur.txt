@@ -1,0 +1,9 @@
+plot "couleurrec.txt" using 1:2 with lines
+replot "couleurimp.txt" using 1:2 with lines
+replot "couleurzsg.txt" using 1:2 with lines
+set xrange[0:10]
+set yrange[0:500000]
+set term postscript portrait
+set output "outputcouleur.ps"
+set size 2.0, 0.7
+replot

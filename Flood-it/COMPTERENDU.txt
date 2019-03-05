@@ -1,0 +1,34 @@
+﻿MATTON Nicolas 3502362
+SABRIE Thomas  3300172
+
+FLOOD IT
+
+Compte Rendu Premiere partie
+
+Questions :
+
+1.4
+
+Nous pouvons constater une augmentation considérable du temps d’exécution qui varient en fonction de la taille et de la difficulté, ce qui semble logique.
+En effet la difficulté diminuant la taille des zones de couleurs différentes, plus de tests sont nécessaire pour trouver la bonne couleur.
+Quand a l'augmentation de la taille,il en vas de même.
+Les listes de cases deviennent de plus en plus grandes.
+
+1.6
+
+Nous pouvons voir que la fonction impérative est bien plus rapide que la fonction récursive
+
+2.4
+
+Nous constatons que la fonction acyclique est bien plus rapide que les deux précédentes.
+Cela fait suite aux test que nous effectuions dans les précédentes version à savoir regarder si une case appartenait a une zone, ce qui prend beaucoup de temps à un certain niveau(complexité en O(taille de la iste)) ;
+Cependant dans celle-ci nous n'avons pas à regarder dans la liste grace au tableau App qui nous indique en complexité O(1) si la case appartient ou non.
+
+2.5
+
+Après avoir tracé les courbes en ayant effectué différents test,
+Nous pouvons constater :
+- En fonction de la couleur, la structure acyclique reste quasiment constante a l'inverse des deux autres, et est inférieur à celles-ci
+- En fonction de la dimension, la structure acyclique est aussi bien plus rapide que les deux précédentes
+
+Conclusion : La structure acyclique est bien plus rapide que la recherche impérative, elle même plus rapide que la recherche recursive.

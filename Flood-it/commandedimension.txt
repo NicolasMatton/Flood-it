@@ -1,0 +1,9 @@
+plot "dimrec.txt" using 1:2 with lines
+replot "dimimp.txt" using 1:2 with lines
+replot "dimzsg.txt" using 1:2 with lines
+set xrange[0:50]
+set yrange[0:1500]
+set term postscript portrait
+set output "outputdimension.ps"
+set size 2.0, 0.7
+replot
